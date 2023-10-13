@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      id="dina-bootstrap-css-css"
+      href="css/bootstrap/css/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Font Awesome Icons CSS -->
+    <link
+      rel="stylesheet"
+      id="dina-font-awesome-css"
+      href="css/fontawesome/css/font-awesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Main CSS File -->
+    <link
+      rel="stylesheet"
+      id="dina-style-css-css"
+      href="styles.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="icon" href="images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="images/icons/favicon-192x192.png" sizes="192x192" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="images/icons/favicon-180x180.png"
+    />
+    <title>Cinamon</title>
+  </head>
+  <body class="body-header1">
+    <div class="menu-btn">
+      <a href="/menu.html">
+        <button>
+          <span>M</span>
+          <span>E</span>
+          <span>N</span>
+          <span>U</span>
+        </button>
+      </a>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="text-align: center">
+            <h5 class="modal-title" id="exampleModalLongTitle">Order Now...</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div
+            class="modal-body"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              flex-wrap: wrap;
+            "
+          >
+            <div class="order">
+              <img
+                src="https://images.unsplash.com/photo-1551972873-b7e8754e8e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJpcnRoZGF5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                style="filter: brightness(50%)"
+              />
+              <div class="order-cont">
+                <h2>Reception Order</h2>
+                <a href="/services.html"><button>Explore</button></a>
+              </div>
+            </div>
+            <div class="order">
+              <img
+                src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvcnBvcmF0ZSUyMHBhcnR5JTIwb3JkZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                style="filter: brightness(50%)"
+              />
+              <div class="order-cont">
+                <h2>Corporate Order</h2>
+                <a href="/services.html"><button>Explore</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mask-nav-2">
+      <!-- MENU -->
+      <nav class="navbar navbar-2 nav-mobile">
+        <div
+          class="nav-holder nav-holder-2"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <ul id="menu-menu-2" class="menu-nav-2">
+            <li class="menu-item">
+              <a style="font-size: 50px" href="/">Home</a>
+            </li>
+            <li class="menu-item">
+              <a style="font-size: 50px" href="/about.html">About Us</a>
+            </li>
+
+            <li class="menu-item">
+              <a
+                style="font-size: 50px"
+                href=""
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                >Services</a
+              >
+            </li>
+            <li class="menu-item">
+              <a style="font-size: 50px" href="/contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /MENU -->
+      <!-- RIGHT SIDE -->
+      <div class="rightside-nav-2">
+        <a href="/reservation.html"
+          ><h3 style="color: #bc8d45; font-size: 40px">Book Now</h3></a
+        >
+        <ul class="right-side-contact">
+          <li style="font-size: 30px">
+            <label>Address:</label> Near KIIT collage Patia, Bhubaneswar
+          </li>
+          <li style="font-size: 30px">
+            <label>Phone:</label> (+91) 9937820666
+          </li>
+        </ul>
+      </div>
+      <!-- /RIGHT SIDE -->
+    </div>
+
+    <header id="header-1">
+      <div class="headerWrap-1">
+        <nav class="navbar-1">
+          <!-- TOP LEFT PAGE TEXT  -->
+          <div class="top-location">
+            <a href="/"
+              ><img class="img-fluid-logo" src="images/logo.png" alt=""
+            /></a>
+          </div>
+          <!-- TOP RIGHT PAGE TEXT  -->
+          <div class="book-now">
+            <a href="/menu.html">
+              <button class="book-my-menu-btn view-more more-white">
+                My Menu
+              </button>
+            </a>
+          </div>
+          <!-- MOBILE BUTTON NAV  -->
+          <div class="nav-button-holder nav-btn-mobile inactive">
+            <span class="menu-txt">MENU</span>
+            <button type="button" class="nav-button">
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="nav-content-1 nav-adjuster">
+            <h1 class="nav-content-1-header">
+              Cinam<span style="color: #bc8d45">o</span>n
+            </h1>
+
+            <!-- MENU -->
+            <div class="nav-holder nav-holder-1 nav-holder-desktop">
+              <ul id="menu-menu-1" class="menu-nav menu-nav-1">
+                <li class="menu-item">
+                  <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                  <a href="/about.html">About Us</a>
+                </li>
+
+                <li class="menu-item service-item">
+                  <a
+                    href=""
+                    data-toggle="modal"
+                    data-target="#exampleModalCenter"
+                    >Services</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="/contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- /MENU -->
+          </div>
+        </nav>
+      </div>
+      <!--headerWrap-->
+    </header>
+    <section class="slider" id="slider">
+      <div class="slider-container">
+        <div class="owl-carousel owl-theme home-slider">
+          <div class="slider-post slider-item-box-bkg">
+            <div
+              class="slider-img"
+              style="background-image: url('images/slider/slider-1.jpg')"
+            ></div>
+            <div class="slider-caption">
+              <div class="slider-text">
+                <h1 style="-webkit-text-stroke: 4px white; color: transparent">
+                  Welcome
+                </h1>
+                <p style="color: #cba874">
+                  "Indulge in the Warmth of Flavor at Cinamon - Where Every Bite
+                  is a Hug for Your Taste Buds."
+                </p>
+                <p>
+                  <a href="reservation.html" class="view-more more-white"
+                    >Reserve your Table</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!--slider-caption-->
+          </div>
+          <!--slider-post-->
+          <div class="slider-post slider-item-box-bkg">
+            <div
+              class="slider-img"
+              style="background-image: url('images/slider/slider-2.jpg')"
+            ></div>
+            <div class="slider-caption">
+              <div class="slider-text">
+                <h1 style="-webkit-text-stroke: 4px white; color: transparent">
+                  To
+                </h1>
+                <p style="color: #cba874">
+                  "Savor the Sweet Moments of Life with Cinamon's Exquisite
+                  Culinary Creations."
+                </p>
+                <p>
+                  <a href="reservation.html" class="view-more more-white"
+                    >Reserve your Table</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!--slider-caption-->
+          </div>
+          <!--slider-post-->
+          <div class="slider-post slider-item-box-bkg">
+            <div
+              class="slider-img"
+              style="background-image: url('images/slider/slider-3.jpg')"
+            ></div>
+            <div class="slider-caption">
+              <div class="slider-text">
+                <h1 style="-webkit-text-stroke: 4px white; color: transparent">
+                  Cinamon
+                </h1>
+                <p style="color: #cba874">
+                  "Cinamon: Where Spice Meets Elegance, and Every Plate Tells a
+                  Delicious Story."
+                </p>
+                <p>
+                  <a href="reservation.html" class="view-more more-white"
+                    >Reserve your Table</a
+                  >
+                </p>
+              </div>
+            </div>
+            <!--slider-caption-->
+          </div>
+          <!--slider-post-->
+        </div>
+      </div>
+    </section>
+
+    <section id="home-content-1" class="home-widget home-features">
+      <div class="headline">
+        <h2>We are Serving</h2>
+      </div>
+      <div class="container">
+        <div class="marquee-container">
+          <div class="serving">
+            <img src="./images/airtel.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/hdfc.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/cipla.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/kiit.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/suzuki.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/sainik.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/mahindra.png" alt="airtel" />
+          </div>
+          <div class="serving">
+            <img src="./images/kotak.png" alt="airtel" />
+          </div>
+        </div>
+
+        <!--.row-->
+      </div>
+      <!--.container-->
+    </section>
+
+    <section
+      class="home-widget parallax"
+      style="background-image: url('images/home/about-4.jpg')"
+    >
+      <div class="parallax-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="img-center alignc">
+                <img
+                  class="img-fluid img-feature"
+                  src="images/home/taste-food.png"
+                  loading="lazy"
+                  alt="taste-food"
+                />
+              </div>
+            </div>
+            <!--.col-md-12-->
+          </div>
+          <!--.row-->
+        </div>
+        <!--.container-->
+      </div>
+      <!-- /parallax-content -->
+    </section>
+
+    <section id="wrap-content" class="page-content">
+      <div class="headline">
+        <h2>Today's Special</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- GALLERY -->
+            <div class="gallery-4colgrid-content">
+              <div
+                class="menu-holder menu-3col-grid-image gallery-holder gallery-4col clearfix"
+              >
+                <div class="menu-post gallery-post">
+                  <a
+                    href="images/gallery/gallery-9.jpg"
+                    class="lightbox"
+                    rel="prettyPhoto[gallery]"
+                    title="Chocolate Muffins"
+                  >
+                    <div class="item-content-bkg gallery-bkg">
+                      <div
+                        class="gallery-img"
+                        style="
+                          background-image: url('images/gallery/gallery-9.jpg');
+                        "
+                      ></div>
+                      <div class="menu-post-desc">
+                        <h4>Chocolate Muffins</h4>
+                        <div class="gallery-mglass">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="menu-post gallery-post">
+                  <a
+                    href="images/gallery/gallery-4.jpg"
+                    class="lightbox"
+                    rel="prettyPhoto[gallery]"
+                    title="Pasta Process"
+                  >
+                    <div class="item-content-bkg gallery-bkg">
+                      <div
+                        class="gallery-img"
+                        style="
+                          background-image: url('images/gallery/gallery-4.jpg');
+                        "
+                      ></div>
+                      <div class="menu-post-desc">
+                        <h4>Pasta Process</h4>
+                        <div class="gallery-mglass">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="menu-post gallery-post">
+                  <a
+                    href="images/gallery/gallery-3.jpg"
+                    class="lightbox"
+                    rel="prettyPhoto[gallery]"
+                    title="Into the kitchen"
+                  >
+                    <div class="item-content-bkg gallery-bkg">
+                      <div
+                        class="gallery-img"
+                        style="
+                          background-image: url('images/gallery/gallery-3.jpg');
+                        "
+                      ></div>
+                      <div class="menu-post-desc">
+                        <h4>Into the kitchen</h4>
+                        <div class="gallery-mglass">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="menu-post gallery-post">
+                  <a
+                    href="images/gallery/gallery-2.jpg"
+                    class="lightbox"
+                    rel="prettyPhoto[gallery]"
+                    title="Private Dinning"
+                  >
+                    <div class="item-content-bkg gallery-bkg">
+                      <div
+                        class="gallery-img"
+                        style="
+                          background-image: url('images/gallery/gallery-2.jpg');
+                        "
+                      ></div>
+                      <div class="menu-post-desc">
+                        <h4>Private Dinning</h4>
+                        <div class="gallery-mglass">
+                          <i class="fas fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- /GALLERY -->
+          </div>
+          <!--col-md-12-->
+        </div>
+        <!--row-->
+      </div>
+      <!--container-->
+    </section>
+
+    <section class="review" id="review">
+      <div
+        class="slider-container"
+        style="
+          text-align: center;
+          padding: 50px;
+          background-color: rgba(25, 48, 62, 1);
+        "
+      >
+        <div class="headline" style="margin-bottom: 10px">
+          <h2 style="color: white">What Clients say</h2>
+        </div>
+        <div class="owl-carousel owl-theme home-slider">
+          <div class="slider-post review-item-box-bkg">
+            <div class="slider-caption">
+              <div class="slider-text">
+                <p class="cust-review">
+                  <span>This is the best Restaurant</span>
+                  "Cinamon exceeded my expectations! The flavors were exquisite,
+                  and the presentation was a work of art. I'll definitely be
+                  returning for more."
+                </p>
+                <p class="cust-name">Ramesh Swain</p>
+                <p class="cust-add">KIIT collage</p>
+              </div>
+            </div>
+            <!--slider-caption-->
+          </div>
+          <!--slider-post-->
+          <div class="slider-post review-item-box-bkg">
+            <div class="slider-caption">
+              <div class="slider-text">
+                <p class="cust-review">
+                  <span>Mouth watering and best taste </span> "I've dined at
+                  many fine restaurants, but Cinamon's unique blend of spices
+                  and flavors left a lasting impression. It's a culinary journey
+                  you don't want to miss."
+                </p>
+                <p class="cust-name">Rashmita</p>
+                <p class="cust-add">CIPLA</p>
+              </div>
+            </div>
+            <!--slider-caption-->
+          </div>
+          <!--slider-post-->
+          <div class="slider-post review-item-box-bkg">
+            <div class="slider-caption">
+              <div class="slider-text">
+                <p class="cust-review">
+                  <span>Best Dining in the Town</span> "As a food enthusiast,
+                  I'm always on the lookout for extraordinary dining
+                  experiences. Cinamon delivered on all fronts – from the
+                  appetizers to the dessert, it was a symphony of taste."
+                </p>
+                <p class="cust-name">Ritika Rao</p>
+                <p class="cust-add">HDFC bank</p>
+              </div>
+            </div>
+            <!--slider-caption-->
+          </div>
+          <!--slider-post-->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <!-- ROW -->
+        <div class="row alignc">
+          <!-- FOOTER COLUMN 1 -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>ADDRESS:</h5>
+              <p>
+                Cinamon Restaurant <br />
+                Near KIIT, Patia, Bhubaneswar
+              </p>
+            </div>
+          </div>
+
+          <!-- FOOTER COLUMN 2 -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>RESERVATION:</h5>
+              <p>
+                9937820666 <br />
+                <a
+                  href="https://matchthemes.com/cdn-cgi/l/email-protection"
+                  class="__cf_email__"
+                  >Info@cinamon.in</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- FOOTER COLUMN 3 -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>OPEN HOURS:</h5>
+              <p>
+                Monday - Friday: 10 AM - 11 PM <br />
+                Saturday - Sunday: 10 AM - 11 PM
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END ROW -->
+
+        <!-- FOOTER SOCIAL -->
+        <ul class="footer-social">
+          <li>
+            <a class="social-facebook" href="#" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-twitter" href="#" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+
+          <li>
+            <a class="social-instagram" href="#" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-whatsapp" href="#" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+        <!-- /FOOTER SOCIAL -->
+
+        <!-- FOOTER COPYRIGHT -->
+        <div class="copyright">Copyright &copy; Cinamon</div>
+        <!-- /FOOTER COPYRIGHT -->
+
+        <!-- FOOTER SCROLL UP -->
+        <div class="scrollup">
+          <a class="scrolltop" href="#">
+            <i class="fas fa-chevron-up"></i>
+          </a>
+        </div>
+        <!-- /FOOTER SCROLL UP -->
+      </div>
+      <!--container-->
+    </footer>
+
+    <script
+      data-cfasync="false"
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="css/bootstrap/js/popper.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/init.js"></script>
+  </body>
+</html>

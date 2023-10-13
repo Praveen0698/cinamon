@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      id="dina-bootstrap-css-css"
+      href="css/bootstrap/css/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Font Awesome Icons CSS -->
+    <link
+      rel="stylesheet"
+      id="dina-font-awesome-css"
+      href="css/fontawesome/css/font-awesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Main CSS File -->
+    <link
+      rel="stylesheet"
+      id="dina-style-css-css"
+      href="styles.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="icon" href="images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="images/icons/favicon-192x192.png" sizes="192x192" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="images/icons/favicon-180x180.png"
+    />
+    <title>Cinamon</title>
+  </head>
+  <body class="body-header1">
+    <div class="menu-btn">
+      <a href="/menu.html">
+        <button>
+          <span>M</span>
+          <span>E</span>
+          <span>N</span>
+          <span>U</span>
+        </button>
+      </a>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="text-align: center">
+            <h5 class="modal-title" id="exampleModalLongTitle">Order Now...</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div
+            class="modal-body"
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              flex-wrap: wrap;
+            "
+          >
+            <div class="order">
+              <img
+                src="https://images.unsplash.com/photo-1551972873-b7e8754e8e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGJpcnRoZGF5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                style="filter: brightness(50%)"
+              />
+              <div class="order-cont">
+                <h2>Reception Order</h2>
+                <a href="/services.html"><button>Explore</button></a>
+              </div>
+            </div>
+            <div class="order">
+              <img
+                src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvcnBvcmF0ZSUyMHBhcnR5JTIwb3JkZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                style="filter: brightness(50%)"
+              />
+              <div class="order-cont">
+                <h2>Corporate Order</h2>
+                <a href="/services.html"><button>Explore</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mask-nav-2">
+      <!-- MENU -->
+      <nav class="navbar navbar-2 nav-mobile">
+        <div
+          class="nav-holder nav-holder-2"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <ul id="menu-menu-2" class="menu-nav-2">
+            <li class="menu-item">
+              <a style="font-size: 50px" href="/">Home</a>
+            </li>
+            <li class="menu-item">
+              <a style="font-size: 50px" href="/about.html">About Us</a>
+            </li>
+            <li class="menu-item service-item">
+              <a
+                style="font-size: 50px"
+                href=""
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                >Services</a
+              >
+            </li>
+            <li class="menu-item">
+              <a style="font-size: 50px" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /MENU -->
+      <!-- RIGHT SIDE -->
+      <div class="rightside-nav-2">
+        <a href="/reservation.html"
+          ><h3 style="color: #bc8d45; font-size: 40px">Book Now</h3></a
+        >
+        <ul class="right-side-contact">
+          <li style="font-size: 30px">
+            <label>Address:</label> Near KIIT collage Patia, Bhubaneswar
+          </li>
+          <li style="font-size: 30px">
+            <label>Phone:</label> (+91) 9937820666
+          </li>
+        </ul>
+      </div>
+      <!-- /RIGHT SIDE -->
+    </div>
+
+    <header id="header-1">
+      <div class="headerWrap-1">
+        <nav class="navbar-1">
+          <!-- TOP LEFT PAGE TEXT  -->
+          <div class="top-location">
+            <a href="/"
+              ><img class="img-fluid-logo" src="images/logo.png" alt=""
+            /></a>
+          </div>
+          <!-- TOP RIGHT PAGE TEXT  -->
+          <div class="book-now">
+            <a href="/menu.html">
+              <button class="book-my-menu-btn view-more more-white">
+                My Menu
+              </button>
+            </a>
+          </div>
+          <!-- MOBILE BUTTON NAV  -->
+          <div class="nav-button-holder nav-btn-mobile inactive">
+            <span class="menu-txt">MENU</span>
+            <button type="button" class="nav-button">
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="nav-content-1 nav-adjuster">
+            <h1 class="nav-content-1-header">
+              Cinam<span style="color: #bc8d45">o</span>n
+            </h1>
+
+            <!-- MENU -->
+            <div class="nav-holder nav-holder-1 nav-holder-desktop">
+              <ul id="menu-menu-1" class="menu-nav menu-nav-1">
+                <li class="menu-item">
+                  <a href="/">Home</a>
+                </li>
+                <li class="menu-item">
+                  <a href="/about.html">About Us</a>
+                </li>
+
+                <li class="menu-item service-item">
+                  <a
+                    href=""
+                    data-toggle="modal"
+                    data-target="#exampleModalCenter"
+                    >Services</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="/contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- /MENU -->
+          </div>
+        </nav>
+      </div>
+      <!--headerWrap-->
+    </header>
+
+    <section class="topSingleBkg topPageBkg">
+      <div class="item-content-bkg">
+        <div
+          class="item-img"
+          style="background-image: url('images/top-headers/top-img-6.jpg')"
+        ></div>
+        <div class="inner-desc">
+          <h1 class="post-title single-post-title">Contact Us</h1>
+          <span class="post-subtitle"> We love to hear from you</span>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 1 -->
+    <section id="wrap-content" class="page-content contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 contact-div mobile-margin-b48">
+            <img class="img-fluid" src="images/home/about-10.jpg" alt="" />
+            <div
+              class="contact3-info"
+              style="background-color: black; padding: 20px"
+            >
+              <div class="box-contact">
+                <figure class="image-box-img">
+                  <i class="fas fa-map-marker-alt"></i>
+                </figure>
+                <div class="image-box-content">
+                  <h5>Address</h5>
+                  <p>Near KIIT collage, Patia, Bhubaneswar</p>
+                </div>
+              </div>
+              <!-- /box-contact -->
+              <div class="box-contact">
+                <figure class="image-box-img">
+                  <i class="fas fa-phone"></i>
+                </figure>
+                <div class="image-box-content">
+                  <h5>Phone</h5>
+                  <p>(+91) 9937820666</p>
+                </div>
+              </div>
+              <!-- /box-contact -->
+              <div class="image-box box-contact">
+                <figure class="image-box-img">
+                  <i class="far fa-envelope"></i>
+                </figure>
+                <div class="image-box-content">
+                  <h5>Email</h5>
+                  <p>
+                    <a
+                      href="https://matchthemes.com/cdn-cgi/l/email-protection"
+                      class="__cf_email__"
+                      >Info@cinamon.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <!-- /box-contact -->
+            </div>
+            <!-- /contact3-info -->
+          </div>
+          <!-- /col-md-5 -->
+          <div class="col-md-7 contact-div">
+            <div class="headline">
+              <h2>Get in Touch</h2>
+            </div>
+            <div class="margin-b24">
+              You have a piece of advice or a suggestion that you would like to
+              share with us? Feel free to contact us.
+            </div>
+            <div id="contact-form-holder">
+              <form method="post" id="contact-form" action="/">
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>Name</label>
+                    <p>
+                      <input
+                        type="text"
+                        name="name"
+                        class="reservation-fields"
+                      />
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <label>Email</label>
+                    <p>
+                      <input
+                        type="text"
+                        name="email"
+                        class="reservation-fields"
+                      />
+                    </p>
+                  </div>
+                </div>
+                <!-- /col-md-6 -->
+                <label>Subject</label>
+                <input type="text" name="subject" class="reservation-fields" />
+                <label>Message</label>
+                <p>
+                  <textarea
+                    name="message"
+                    id="msg-contact"
+                    class="reservation-fields"
+                    rows="4"
+                    style="resize: none"
+                  ></textarea>
+                </p>
+                <p class="antispam">
+                  Leave this empty: <input type="text" name="url" />
+                </p>
+                <p class="contact-btn">
+                  <input type="submit" value="Send message" id="submit" />
+                </p>
+              </form>
+            </div>
+            <!-- contact-form-holder-->
+            <div id="output-contact"></div>
+          </div>
+          <!-- /col-md-7 -->
+        </div>
+        <!-- /row-->
+        <div class="gmaps margin-t54">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.6798175005647!2d85.81347837477892!3d20.354841710584687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909160eaa57e1%3A0xe37e4cc153431657!2sHotel%20Cinamon!5e0!3m2!1sen!2sin!4v1695292012952!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: none"
+          >
+          </iframe>
+        </div>
+        <!--/gmaps-->
+      </div>
+      <!-- /container-->
+    </section>
+
+    <footer style="border-top: 5px solid black">
+      <div class="container">
+        <!-- ROW -->
+        <div class="row alignc">
+          <!-- FOOTER COLUMN 1 -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>ADDRESS:</h5>
+              <p>
+                Cinamon Restaurant <br />
+                Near KIIT, Patia, Bhubaneswar
+              </p>
+            </div>
+          </div>
+
+          <!-- FOOTER COLUMN 2 -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>RESERVATION:</h5>
+              <p>
+                9937820666 <br />
+                <a
+                  href="https://matchthemes.com/cdn-cgi/l/email-protection"
+                  class="__cf_email__"
+                  >Info@cinamon.in</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- FOOTER COLUMN 3 -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>OPEN HOURS:</h5>
+              <p>
+                Monday - Friday: 10 AM - 11 PM <br />
+                Saturday - Sunday: 10 AM - 11 PM
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END ROW -->
+
+        <!-- FOOTER SOCIAL -->
+        <ul class="footer-social">
+          <li>
+            <a class="social-facebook" href="#" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-twitter" href="#" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+
+          <li>
+            <a class="social-instagram" href="#" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-whatsapp" href="#" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+        <!-- /FOOTER SOCIAL -->
+
+        <!-- FOOTER COPYRIGHT -->
+        <div class="copyright">Copyright &copy; Cinamon</div>
+        <!-- /FOOTER COPYRIGHT -->
+
+        <!-- FOOTER SCROLL UP -->
+        <div class="scrollup">
+          <a class="scrolltop" href="#">
+            <i class="fas fa-chevron-up"></i>
+          </a>
+        </div>
+        <!-- /FOOTER SCROLL UP -->
+      </div>
+      <!--container-->
+    </footer>
+    <!-- /FOOTER -->
+
+    <!-- JS -->
+    <script
+      data-cfasync="false"
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="css/bootstrap/js/popper.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/init.js"></script>
+    <!-- RESERVATION FORM JS -->
+    <script src="js/jquery.form.min.js"></script>
+    <script src="js/reservation-form.js"></script>
+  </body>
+</html>
